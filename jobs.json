@@ -1,18 +1,41 @@
 [
   {
-    "job_title": "Software Engineer",
+    "job_id": "job_001",
+    "title": "Software Engineer",
     "organization": "Microsoft",
     "domain": "Software",
     "source": "LinkedIn",
-    "description": "Python, backend, cloud",
-    "apply_link": "https://linkedin.com/jobs/view/123"
+    "location": "India",
+    "employment_type": "Full-time",
+    "description": "Python, backend systems, cloud services",
+    "skills": ["Python", "Backend", "Cloud"],
+    "apply_url": "https://linkedin.com/jobs/view/123",
+    "posted_date": "Not available"
   },
   {
-    "job_title": "Assistant Professor of AI",
+    "job_id": "job_002",
+    "title": "Assistant Professor of Artificial Intelligence",
     "organization": "IIT Bombay",
     "domain": "Teaching",
     "source": "University Website",
-    "description": "PhD, research, teaching",
-    "apply_link": "https://iitb.ac.in/careers"
+    "location": "India",
+    "employment_type": "Full-time",
+    "description": "PhD in AI, research publications, teaching experience",
+    "skills": ["AI", "Research", "Teaching"],
+    "apply_url": "https://iitb.ac.in/careers",
+    "posted_date": "Not available"
+  },
+  {
+    "job_id": "job_003",
+    "title": "Government Data Analyst",
+    "organization": "Government of India",
+    "domain": "Government",
+    "source": "Govt Portal",
+    "location": "India",
+    "employment_type": "Contract",
+    "description": "Data analysis, reporting, public sector analytics",
+    "skills": ["Data Analysis", "Excel", "Statistics"],
+    "apply_url": "https://gov.in/jobs",
+    "posted_date": "Not available"
   }
 ]
