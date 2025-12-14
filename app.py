@@ -46,7 +46,6 @@ def load_jobs():
         return json.load(f)
 
 
-@st.cache_resource
 def load_or_create_embeddings(jobs, model):
     """
     If embeddings file exists, load it.
