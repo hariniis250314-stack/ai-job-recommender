@@ -7,7 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.title("AI Job Recommender")
 
 jobs = json.load(open("jobs.json"))
-embeddings = np.load("job_embeddings.npy")
+embeddings = np.load("job_embeddings.npy", allow_pickle=True)
+
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 resume = st.text_area("Paste your resume")
