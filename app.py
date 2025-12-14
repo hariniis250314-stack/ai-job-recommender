@@ -20,8 +20,11 @@ st.set_page_config(
 )
 
 DATA_DIR = "data"
-JOBS_PATH = os.path.join(DATA_DIR, "jobs.json")
-EMBEDDINGS_PATH = os.path.join(DATA_DIR, "job_embeddings.npy")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+JOBS_PATH = os.path.join(BASE_DIR, "jobs.json")
+EMBEDDINGS_PATH = os.path.join(BASE_DIR, "job_embeddings.npy")
+
 
 # ---------------- UTILITY FUNCTIONS ----------------
 def extract_text_from_pdf(file):
